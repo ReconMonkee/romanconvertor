@@ -92,6 +92,6 @@ def splitCheck(numChar, character)
     elsif numChar == 9
         return character + nextCheck
     else
-        return half + character * (numChar-5)
+        return half + character * (numChar - 5)
     end
 end
